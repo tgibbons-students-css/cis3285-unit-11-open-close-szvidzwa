@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace AbstractTrader
 {
-    public interface ITradeProcessor
+    public interface TradeProcessor
     {
         void ProcessTrades(Stream stream);
+
     }
 }
